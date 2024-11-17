@@ -40,7 +40,7 @@ The dataset used for this analysis is from Medicare:
 ## Results and Visualizations
 
 ### **1. Total spending per year (2022)**
-![](images/cost_per_claim_analysis.png)
+![](graphs/total_spending_per_year.png)
 
 ### **2. Spending Trends Over Time**
 ![](graphs/spending_trends_over_time.png)
