@@ -39,10 +39,10 @@ The dataset used for this analysis is from Medicare:
 
 ## Results and Visualizations
 
-### **1. Top 10 expensive drugs in 2022**
+### **1. Top 10 Expensive Drugs In 2022**
 ![](graphs/top_10_drugs.png)
 
-### **2. Total spending per year (2018-2022)**
+### **2. Total Spending Per Year (2018-2022)**
 ![](graphs/spending_per_year.png)
 
 ### **3. Spending Trends Over Time (2018-2022)**
@@ -56,27 +56,6 @@ The dataset used for this analysis is from Medicare:
 
 ### **6. Outlier Detection**
 ![](graphs/Outlier.png)
-
----
-
-## Usage Instructions
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/username/Drug-Pricing-and-Utilization-Analysis-using-Medicare-Data.git
-   ```
-
-2. **Navigate to the project folder:**
-   ```bash
-   cd Drug-Pricing-and-Utilization-Analytics-using-Medicare-Data
-   ```
-
-3. **Install required dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Run analysis scripts:**
 
 ---
 
@@ -101,6 +80,27 @@ The dataset used for this analysis is from Medicare:
 2. **Monitor High-CAGR Drugs:** Keep track of rapidly increasing drugs like Tigecycline.
 3. **Evaluate High Costs per Claim:** Assess cost-efficiency of drugs like Revcovi and Cablivi.
 4. **Policy Adjustments:** Implement targeted policies to regulate spending on high-cost drugs.
+
+---
+
+## Usage Instructions
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/username/Drug-Pricing-and-Utilization-Analysis-using-Medicare-Data.git
+   ```
+
+2. **Navigate to the project folder:**
+   ```bash
+   cd Drug-Pricing-and-Utilization-Analytics-using-Medicare-Data
+   ```
+
+3. **Install required dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Run analysis scripts:**
 
 ---
 
