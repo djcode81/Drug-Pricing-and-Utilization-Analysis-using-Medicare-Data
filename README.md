@@ -48,10 +48,10 @@ The dataset used for this analysis is from Medicare:
 ### **3. CAGR Analysis (2018-2022)**
 ![](graphs/Top10_Drugs_by_Compound_Annual_Growth_Rate(2018-2022).png)
 
-**Correlation Analysis:**
+### **4. Correlation Analysis:**
 ![](graphs/correlation_between_claims_spending_and_costs.png)
 
-### **4. Outlier Detection**
+### **5. Outlier Detection**
 ![](graphs/Outlier.png)
 
 ---
