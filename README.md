@@ -12,21 +12,22 @@ The goal of this project is to identify key trends, outliers, and actionable ins
 ### **Key Analyses**
 1. **Exploratory Data Analysis (EDA):**
    - Basic statistics and missing value identification.
-   - Trends in total spending over time.
+   - Initial exploration of spending trends.
 
-2. **Cost per Claim Analysis:**
-   - Top 10 drugs by cost per claim in 2022.
+2. **Spending Trends Over Time:**
+   - Visualized spending trends from 2018 to 2022.
 
 3. **CAGR Analysis:**
    - Identification of drugs with the highest Compound Annual Growth Rate (CAGR) from 2018 to 2022.
 
-4. **Outlier Detection:**
-   - Detection of drugs with extreme values in spending, claims, and cost per claim.
+4. **Correlation Analysis:**
+   - Examined relationships between claims, spending, and cost per claim in 2022.
 
-5. **Insights and Recommendations:**
+5. **Outlier Detection:**
+   - Detection of drugs with extreme values in spending and claims in 2022.
+
+6. **Insights and Recommendations:**
    - Summarized findings with actionable recommendations.
-
----
 
 ## Dataset
 
@@ -35,42 +36,23 @@ The dataset used for this analysis is from Medicare:
 
 ---
 
-## Repository Structure
-
-```
-Drug-Pricing-Analytics/
-├── data/
-│   ├── cleaned_dataset.csv            # Cleaned dataset
-├── images/
-│   ├── spending_trends.png           # Spending trends plot
-│   ├── cost_per_claim_analysis.png   # Cost per claim plot
-│   ├── cagr_analysis.png             # CAGR plot
-│   ├── outlier_analysis.png          # Outlier detection plot
-├── scripts/
-│   ├── data_cleaning.py              # Data cleaning script
-│   ├── eda.py                        # Exploratory Data Analysis script
-│   ├── cost_per_claim_analysis.py    # Cost per claim analysis
-│   ├── cagr_analysis.py              # CAGR analysis
-│   ├── outlier_analysis.py           # Outlier detection
-│   ├── insights_and_recommendations.py # Insights and recommendations
-├── README.md                         # Project documentation (this file)
-```
-
----
 
 ## Results and Visualizations
 
-### **1. Spending Trends Over Time**
-![](images/spending_trends.png)
-
-### **2. Cost per Claim Analysis (2022)**
+### **1. Total spending per year (2022)**
 ![](images/cost_per_claim_analysis.png)
 
+### **2. Spending Trends Over Time**
+![](graphs/spending_trends_over_time.png)
+
 ### **3. CAGR Analysis (2018-2022)**
-![](images/cagr_analysis.png)
+![](graphs/Top10_Drugs_by_Compound_Annual_Growth_Rate(2018-2022).png)
+
+**Correlation Analysis:**
+![](graphs/correlation_between_claims_spending_and_costs.png)
 
 ### **4. Outlier Detection**
-![](images/outlier_analysis.png)
+![](graphs/Outlier.png)
 
 ---
 
@@ -78,12 +60,12 @@ Drug-Pricing-Analytics/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/username/Drug-Pricing-Analytics.git
+   git clone https://github.com/username/Drug-Pricing-and-Utilization-Analysis-using-Medicare-Data.git
    ```
 
 2. **Navigate to the project folder:**
    ```bash
-   cd Drug-Pricing-Analytics
+   cd Drug-Pricing-and-Utilization-Analytics-using-Medicare-Data
    ```
 
 3. **Install required dependencies:**
