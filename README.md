@@ -1,6 +1,6 @@
 # Drug Pricing and Utilization Analytics using Medicare Data
 
-This proejct involves comprehensive analysis of drug pricing and utilization trends from 2018 to 2022. The different steps include exploratory data analysis (EDA), outlier detection, cost per claim analysis, CAGR trends, and insights into healthcare spending. The dataset used contains information on drug spending, claims, and utilization metrics.
+This project involves comprehensive analysis of drug pricing and utilization trends from 2018 to 2022. The different steps include exploratory data analysis (EDA), outlier detection, cost per claim analysis, CAGR trends, and insights into healthcare spending. The dataset used contains information on drug spending, claims, and utilization metrics.
 
 ---
 
@@ -39,19 +39,22 @@ The dataset used for this analysis is from Medicare:
 
 ## Results and Visualizations
 
-### **1. Total spending per year (2022)**
+### **1. Top 10 expensive drugs in 2022**
+![](graphs/top_10_drugs.png)
+
+### **2. Total spending per year (2018-2022)**
 ![](graphs/spending_per_year.png)
 
-### **2. Spending Trends Over Time**
+### **3. Spending Trends Over Time (2018-2022)**
 ![](graphs/spending_trends_over_time.png)
 
-### **3. CAGR Analysis (2018-2022)**
+### **4. CAGR Analysis (2018-2022)**
 ![](graphs/Top10_Drugs_by_Compound_Annual_Growth_Rate(2018-2022).png)
 
-### **4. Correlation Analysis:**
+### **5. Correlation Analysis:**
 ![](graphs/correlation_between_claims_spending_and_costs.png)
 
-### **5. Outlier Detection**
+### **6. Outlier Detection**
 ![](graphs/Outlier.png)
 
 ---
